@@ -1,11 +1,11 @@
 <div class="page-header">
   <h1>The Color of Monitoring</h1>
 </div>
-<div class="pool-flex-container-row">
+<div class="arcade-flex-container-row">
 
-  <div class="pool-flex-container-column">
+  <div class="arcade-flex-container-column">
     <h3>Dance Dance Revolution: High Score</h3>
-    <img class="pool-pic" src="public/plugins/grafana-arcade-app/img/ddr_logo.png" width="500">
+    <img class="arcade-pic" src="public/plugins/grafana-arcade-app/img/ddr_logo.png" width="500">
     <div class="gf-form gf-form-group">
       <label class="gf-form-label width-5">Score</label>
       <input class="gf-form-input width-7" type="text" required ng-model="ctrl.ddrScore">
@@ -13,9 +13,9 @@
     </div>
   </div>
   <br />
-  <div class="pool-flex-container-column">
-    <h3>Super Mario Bros: Highest Level on 1 Life</h3>
-    <img class="pool-pic" src="public/plugins/grafana-arcade-app/img/super_mario_bros._logo.svg" width="500">
+  <div class="arcade-flex-container-column">
+    <h3>Super Mario Bros: Highest Level on 1 Life (ex: world 1-1 = 101)</h3>
+    <img class="arcade-pic" src="public/plugins/grafana-arcade-app/img/super_mario_bros._logo.svg" width="500">
     <div class="gf-form gf-form-group">
       <label class="gf-form-label width-6">Level</label>
       <input class="gf-form-input width-6" type="text" required ng-model="ctrl.oneTurnSunk">
@@ -23,19 +23,19 @@
     </div>
   </div>
   <br />
-  <div class="pool-flex-container-column">
+  <div class="arcade-flex-container-column">
     <h3>Super Mario Bros: Speed Run</h3>
-    <img class="pool-pic" src="public/plugins/grafana-arcade-app/img/super_mario_bros._logo.svg" width="500">
+    <img class="arcade-pic" src="public/plugins/grafana-arcade-app/img/super_mario_bros._logo.svg" width="500">
     <div class="gf-form gf-form-group">
       <label class="gf-form-label width-8">Time (seconds)</label>
-      <input class="gf-form-input width-6" type="text" required ng-model="ctrl.speedShooting">
+      <input class="gf-form-input width-6" type="text" required ng-model="ctrl.speedRun">
       <button type="submit" class="btn btn-success" ng-click="ctrl.record('speed_run', ctrl.speedRun)">Record</button>
     </div>
   </div>
   <br />
-  <div class="pool-flex-container-column">
+  <div class="arcade-flex-container-column">
     <h3>Pinball: High Score</h3>
-    <img class="pool-pic" src="public/plugins/grafana-arcade-app/img/pinball-icon.svg" width="500">
+    <img class="arcade-pic" src="public/plugins/grafana-arcade-app/img/pinball-icon.svg" width="500">
     <div class="gf-form gf-form-group">
       <label class="gf-form-label width-8">Time (seconds)</label>
       <input class="gf-form-input width-6" type="text" required ng-model="ctrl.speedShooting">

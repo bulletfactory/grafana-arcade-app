@@ -8,7 +8,7 @@ export class EnterStatsCtrl {
 
   record(metric, value) {
     var data = {metrics: {}};
-    data.metrics['pool.' + metric + '.count'] = value;
+    data.metrics['arcade.' + metric + '.count'] = value;
 
     return this.backendSrv.post("/api/plugin-proxy/grafana-arcade-app/api/", data);
   }

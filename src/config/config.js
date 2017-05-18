@@ -1,13 +1,13 @@
 import configTemplate from './config.html!text';
 
-class PoolConfigCtrl {
+class ArcadeConfigCtrl {
   constructor() {
   }
 }
 
-PoolConfigCtrl.template = configTemplate;
+ArcadeConfigCtrl.template = configTemplate;
 
 export {
-  PoolConfigCtrl as ConfigCtrl
+  ArcadeConfigCtrl as ConfigCtrl
 };
 

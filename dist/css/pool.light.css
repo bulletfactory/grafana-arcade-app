@@ -1,10 +1,10 @@
-.pool-flex-container-row {
+.arcade-flex-container-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.pool-flex-container-column {
+.arcade-flex-container-column {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -12,10 +12,10 @@
   margin-bottom: 100px;
   width: 400px; }
 
-.pool-pic {
+.arcade-pic {
   margin-bottom: 20px; }
 
-.pool-radio {
+.arcade-radio {
   display: inline; }
 
 /*# sourceMappingURL=pool.light.css.map */

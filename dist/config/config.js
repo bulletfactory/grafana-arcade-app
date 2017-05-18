@@ -3,7 +3,7 @@
 System.register(['./config.html!text'], function (_export, _context) {
   "use strict";
 
-  var configTemplate, PoolConfigCtrl;
+  var configTemplate, ArcadeConfigCtrl;
 
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
@@ -16,13 +16,13 @@ System.register(['./config.html!text'], function (_export, _context) {
       configTemplate = _configHtmlText.default;
     }],
     execute: function () {
-      _export('ConfigCtrl', PoolConfigCtrl = function PoolConfigCtrl() {
-        _classCallCheck(this, PoolConfigCtrl);
+      _export('ConfigCtrl', ArcadeConfigCtrl = function ArcadeConfigCtrl() {
+        _classCallCheck(this, ArcadeConfigCtrl);
       });
 
-      PoolConfigCtrl.template = configTemplate;
+      ArcadeConfigCtrl.template = configTemplate;
 
-      _export('ConfigCtrl', PoolConfigCtrl);
+      _export('ConfigCtrl', ArcadeConfigCtrl);
     }
   };
 });
