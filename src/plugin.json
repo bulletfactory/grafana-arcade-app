@@ -1,7 +1,7 @@
 {
   "type": "app",
-  "name": "Color of Monitoring",
-  "id": "grafana-pool-app",
+  "name": "Shall We Play a Game",
+  "id": "grafana-arcade-app",
 
   "staticRoot": ".",
 
@@ -14,7 +14,7 @@
   ],
 
   "info": {
-    "description": "The Color of Monitoring: Monitorama Happy Hour.",
+    "description": "Shall We Play a Game: Monitorama Happy Hour.",
     "author": {
       "name": "Grafana.",
       "url": "http://grafana.org"
@@ -25,7 +25,7 @@
       "large": "img/logo_large.png"
     },
     "version": "0.1",
-    "updated": "2016-06-25"
+    "updated": "2017-05-18"
   },
 
   "includes": [
@@ -38,7 +38,7 @@
     },
     {
       "type": "dashboard",
-      "name": "Pool Stats",
+      "name": "Arcade Stats",
       "path": "dashboards/pool-stats.json",
       "addToNav": true
     }

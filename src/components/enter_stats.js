@@ -10,7 +10,7 @@ export class EnterStatsCtrl {
     var data = {metrics: {}};
     data.metrics['pool.' + metric + '.count'] = value;
 
-    return this.backendSrv.post("/api/plugin-proxy/grafana-pool-app/api/", data);
+    return this.backendSrv.post("/api/plugin-proxy/grafana-arcade-app/api/", data);
   }
 }
 
