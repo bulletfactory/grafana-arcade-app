@@ -18,7 +18,7 @@
     <img class="arcade-pic" src="public/plugins/grafana-arcade-app/img/super_mario_bros._logo.svg" width="500">
     <div class="gf-form gf-form-group">
       <label class="gf-form-label width-6">Level</label>
-      <input class="gf-form-input width-6" type="text" required ng-model="ctrl.oneTurnSunk">
+      <input class="gf-form-input width-6" type="text" required ng-model="ctrl.highestLevelOneLife">
       <button type="submit" class="btn btn-success" ng-click="ctrl.record('highest_level_one_life', ctrl.highestLevelOneLife)">Record</button>
     </div>
   </div>
@@ -38,7 +38,7 @@
     <img class="arcade-pic" src="public/plugins/grafana-arcade-app/img/pinball-icon.svg" width="500">
     <div class="gf-form gf-form-group">
       <label class="gf-form-label width-8">Time (seconds)</label>
-      <input class="gf-form-input width-6" type="text" required ng-model="ctrl.speedShooting">
+      <input class="gf-form-input width-6" type="text" required ng-model="ctrl.pinballHighScore">
       <button type="submit" class="btn btn-success" ng-click="ctrl.record('pinball_high_score', ctrl.pinballHighScore)">Record</button>
     </div>
   </div>
