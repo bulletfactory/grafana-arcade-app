@@ -21,8 +21,8 @@
     },
     "keywords": ["grafana"],
     "logos": {
-      "small": "img/logo_small.png",
-      "large": "img/logo_large.png"
+      "small": "img/logo_small.svg",
+      "large": "img/logo_large.svg"
     },
     "version": "0.1",
     "updated": "2017-05-18"
